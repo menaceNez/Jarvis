@@ -1,0 +1,25 @@
+{
+  "name": "jarvis",
+  "version": "1.0.0",
+  "description": "https://www.tiktok.com/discover/iron-man-jarvis-jork-it-a-lil 😹",
+  "homepage": "https://github.com/menaceNez/Jarvis#readme",
+  "bugs": {
+    "url": "https://github.com/menaceNez/Jarvis/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menaceNez/Jarvis.git"
+  },
+  "license": "ISC",
+  "author": "G and C",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "gstart": "electron . --ozone-platform=x11 --disable-gpu --remote-debugging-port=9222"
+  },
+  "devDependencies": {
+    "electron": "^43.4.1"
+  }
+}
